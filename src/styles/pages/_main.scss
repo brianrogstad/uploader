@@ -1,0 +1,106 @@
+// main page styles
+// =============================================================
+
+.component-container {
+  width: 350px;
+  border-radius: 10px;
+  margin: 0 auto;
+  background: $white;
+  padding: 25px;
+}
+
+.container {
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  text-align: center;
+  border: dashed 2px $lightblue;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input {
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+  }
+
+  label {
+    color: $blue;
+  }
+
+  p {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    color: $gray;
+    font-family: $primary-font;
+    line-height: 1.25rem;
+    margin-bottom: 20px;
+    letter-spacing: .18rem;
+  }
+}
+
+.file-container {
+  display: flex;
+  margin: 0 0 1.4rem;
+  justify-content: flex-start;
+}
+
+.file-type-icon {
+  width: 40px;
+}
+
+.show-check,
+.show-close {
+  display: block;
+}
+
+.hide-check,
+.hide-close {
+  display: none;
+}
+
+.alerts-container {
+  float: right;
+}
+
+.single-file {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 .25rem 1rem;
+  width: 100%;
+  align-self: flex-end;
+
+  .file-info {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 0 .625rem;
+  
+    p {
+      color: $gray;
+      font-family: $primary-font;
+      width: 215px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      margin: 0;
+      
+    }
+
+    .delete-icon,
+    .success-icon {
+      margin: 0 0 0 auto;
+      cursor: pointer;
+      align-self: flex-end;
+      width: 20px;
+    }
+  }
+}

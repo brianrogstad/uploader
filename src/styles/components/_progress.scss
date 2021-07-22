@@ -1,0 +1,26 @@
+// base progress styles
+// =============================================================
+
+.progress-container {
+    height: 7px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: $lightred;
+    position: relative;
+  }
+
+.progress {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+    background-color: $red;
+    transition: 0.5s all;
+
+    &.isComplete {
+        background: $green;
+    }
+}

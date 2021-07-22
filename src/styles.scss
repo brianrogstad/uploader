@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+$black: #000;
+$white: #fff;
+
+$red: #ed665f;
+$light-red: #ed665f33;
+
+$blue: #6B91EE;
+$lightblue: #688ee8;
+
+$green: #6cc08a;
+$lightgreen: #afe8c2;
+
+$yellow: #e2de4b;
+$lightyellow: #e3e8af;
+
+$gray: #3d4852;
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: $blue;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: $gray;
+    text-align: left;
+}

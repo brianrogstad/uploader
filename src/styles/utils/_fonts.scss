@@ -1,0 +1,38 @@
+// sass font variables
+// =============================================================
+
+// Google Fonts / Font Imports
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+/** font variables
+* @access public
+* @type string
+*/
+$open-sans: 'Open Sans', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+
+/** global quick change font variables
+* @access public
+* @type string
+*/
+// global fonts
+$primary-font: $montserrat; // global primary font
+$secondary-font: $open-sans; // global secondary font
+
+
+/** font-weights
+* @access public
+* @type string
+*/
+$light: 300;
+$normal: 400;
+$semi-bold: 600;
+$bold: 700;
+
+/** line-heights
+* @access public
+* @type string
+*/
+$heading-line-height: 1.75;
+$body-line-height: 1.5;
+$browser-context: 16; // set to one em, used in sass functions file

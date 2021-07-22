@@ -1,0 +1,21 @@
+// specific alert styles
+// =============================================================
+
+.message {
+  float: left;
+}
+
+.close {
+  float: right;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+

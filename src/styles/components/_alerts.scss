@@ -1,0 +1,51 @@
+// base alerts and notifications styles
+// =============================================================
+
+.alert {
+    width: 350px; 
+    margin: 0 0 15px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: $primary-font;
+  }
+  
+  .alert-danger {
+    background: $lightred;
+    color: $red;
+    border-color: $red;
+  
+    svg {
+      fill: $red;
+    }
+  }
+  
+  .alert-success {
+    background: $green;
+    color: $lightgreen;
+    border-color: $lightgreen;
+  
+    svg {
+      fill: $lightgreen;
+    }
+  }
+    
+  .alert-warning {
+    background-color: $lightyellow;
+    border-color: $yellow;
+    color: $black;
+  
+    svg {
+      fill: $black;
+    }
+  }
+  
+  .alert-info {
+    background-color: $blue;
+    border-color: $lightblue;
+    color: $lightblue;
+  
+    svg {
+      fill: $lightblue;
+    }
+  }

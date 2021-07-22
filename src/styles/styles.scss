@@ -1,0 +1,21 @@
+// main styles file (imports and cdn calls)
+// =============================================================
+
+// base scss utility files
+@import 'utils/mixins';
+@import 'utils/fonts';
+@import 'utils/colors';
+
+// import global and base scss files and styles
+@import 'base/headings';
+@import 'base/global';
+
+// import component scss files
+@import 'components/alerts';
+@import 'components/progress';
+
+// import layout scss files
+@import 'layout/header';
+
+// import layout scss files
+@import 'pages/main';
